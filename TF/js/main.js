@@ -5,5 +5,6 @@ window.onload = function(){
     game.state.add("Game", Game);
     game.state.add("Integrantes", Integrantes);
     game.state.add("Instrucciones", Instrucciones);
+    game.state.add("GameOver", GameOver);
     game.state.start("Preload");
 }
