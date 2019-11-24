@@ -16,7 +16,7 @@ Game.prototype = {
         this.timeToSpawnFish = 1000;
         this.timeCounterFish = 0;
 
-        this.vidas = 1;
+        this.vidas = 5;
         this.score = 0;
 
         this.createGUI();
